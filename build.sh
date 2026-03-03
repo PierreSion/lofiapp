@@ -54,5 +54,9 @@ cat > "$CONTENTS/Info.plist" <<PLIST
 </plist>
 PLIST
 
+# Ad-hoc code sign so macOS shows "unidentified developer" instead of "damaged"
+echo "Code signing..."
+codesign --force --deep --sign - "$APP_BUNDLE"
+
 echo "Done! App bundle at: $APP_BUNDLE"
 echo "Run with: open $APP_BUNDLE"
