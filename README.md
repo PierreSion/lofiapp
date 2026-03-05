@@ -9,14 +9,6 @@ A lightweight macOS menu bar app that plays the [Lofi Girl](https://www.youtube.
 
 No browser tab needed — just click the menu bar icon and hit play.
 
-## Features
-
-- Menu bar only — no dock icon, no window
-- Play/stop the Lofi Girl stream with one click
-- Stream status indicator (loading, playing, buffering, error)
-- Launch at Login toggle
-- Lofi Girl app icon
-
 ## Installation
 
 ### Requirements
