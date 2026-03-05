@@ -1,3 +1,8 @@
+
+<div align="center">
+<img width="638" height="254" alt="Screenshot 2026-03-05 at 17 34 56" src="https://github.com/user-attachments/assets/aec511d7-27ad-4964-be30-83d73a182339" />
+</div>
+
 # LofiApp
 
 A lightweight macOS menu bar app that plays the [Lofi Girl](https://www.youtube.com/@LofiGirl) YouTube livestream audio.
