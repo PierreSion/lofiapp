@@ -12,18 +12,28 @@ No browser tab needed — just click the menu bar icon and hit play.
 - Launch at Login toggle
 - Lofi Girl app icon
 
-## Requirements
+## Installation
+
+### Requirements
 
 - macOS 14 (Sonoma) or later
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) installed via Homebrew
 
-## Install yt-dlp
+### Steps
 
-```
-brew install yt-dlp
-```
+1. Install yt-dlp:
 
-## Build
+   ```
+   brew install yt-dlp
+   ```
+
+2. Install **LofiApp** from the [latest release](https://github.com/pierre-music/lofiapp/releases/latest)
+
+---
+
+## Development
+
+### Build
 
 ```
 ./build.sh
@@ -31,23 +41,8 @@ brew install yt-dlp
 
 This compiles the Swift source and produces `LofiApp.app` in the project directory.
 
-## Run
 
-Double-click `LofiApp.app`, or:
-
-```
-open LofiApp.app
-```
-
-To make it available in Spotlight, drag `LofiApp.app` to `/Applications`.
-
-## How it works
-
-1. When you click Play, the app calls `yt-dlp` to extract the audio stream URL from the Lofi Girl YouTube livestream
-2. The HLS stream URL is fed to macOS's built-in `AVPlayer` for audio playback
-3. Stream URLs expire after a few hours, so a fresh URL is fetched each time you start playback
-
-## Project structure
+### Project structure
 
 ```
 LofiApp/
