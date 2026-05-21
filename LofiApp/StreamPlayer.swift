@@ -22,7 +22,7 @@ class StreamPlayer {
     private var stallObservation: NSKeyValueObservation?
     private var runningProcess: Process?
 
-    private let lofiGirlURL = "https://www.youtube.com/watch?v=jfKfPfyJRdk"
+    private let lofiGirlURL = "https://www.youtube.com/watch?v=EWrX250Zhko"
 
     func startPlaying() {
         guard state == .idle || state.isError else { return }
